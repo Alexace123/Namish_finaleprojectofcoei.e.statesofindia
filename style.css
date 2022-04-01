@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&family=Roboto+Condensed:wght@300&family=Roboto:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;   
+    background-repeat: no-repeat;
+    background-color: white;
+    font-size: larger;
+}
+Table,th,tr,td{
+    margin: auto;
+    border: 5px solid blue;
+    padding: 20px;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+th{
+    background-color: cyan;
+    color: darkmagenta;
+}
+td{
+    background-color: pink;
+}
+.headering{
+    color: firebrick;
+}
+.button{
+    background-color: lightgreen;
+    margin: auto;
+    cursor: pointer;
+    color: white;
+    width: 130px;
+    padding: 10px;
+}
+
+#scroll{
+    position: relative;
+    animation: Namish 3s infinite;
+    animation-play-state: running;
+}
+@keyframes Namish{
+    from{
+        top: 15px;
+    }
+    to{
+    top: 100px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .container{
+        text-align: center;
+    }
+    .wrap-reverse{
+        flex-wrap: wrap-reverse;
+    }
+  }
+ 
+  
+ .container{
+        width: 500px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-self: center;
+        margin-left: 350px;
+ }
+ nav{
+     color: aliceblue;
+     background-color: black;
+      position: relative;
+    height: 30px;
+    width: 1300px;
+    background-color: #1E1E1E;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ #love{
+     color: white;
+ }
+ 
